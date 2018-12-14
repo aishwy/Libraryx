@@ -1,0 +1,13 @@
+.photoid {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.photoid img {
+    width: 95%;
+    cursor: pointer;
+}
+
+.photoid img:hover {
+    opacity: 0.85;
+}
