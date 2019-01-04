@@ -4,7 +4,7 @@ import './App.css';
 import Header from './UI/header/header';
 import Profile from './containers/Profile/Profile';
 import {BrowserRouter,Route,Switch} from 'react-router-dom';
-//import Home from './containers/Home/Home';
+import Home from './containers/Home/Home';
 class App extends Component {
   render() {
     return (
@@ -12,7 +12,7 @@ class App extends Component {
         
         <Switch>
           <Route path="/profile" render={()=>{return(<Fragment><Header/><Profile/></Fragment>)}}/>
-          {/* <Route path="/home" component={Home}/> */}
+          <Route path="/" component={Home}/>
         </Switch>
         
         
